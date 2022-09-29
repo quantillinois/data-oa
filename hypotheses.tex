@@ -1,0 +1,43 @@
+\documentclass{report}
+\usepackage[utf8]{inputenc}
+
+\title{Financial Complaints Project Future Hypotheses}
+\author{Anuj Singla}
+\date{September 29th, 2022}
+
+\setcounter{secnumdepth}{3}
+
+\begin{document}
+
+\maketitle
+
+\chapter{Current Project}
+
+\section{Optimizing the ML Model}
+Only one scikit-learn Logistic Regression model was used and was biased toward classifying a complaint in the "non-dispute" category.
+\subsection{If an ensemble method such as XGBoost is optimized for the data set, then the model will make less biased predictions than the Logistic Regression model.}
+\subsection{If the data is balanced to include less non-disputes, then the ML classifier will train with less bias.}
+\subsection{If stronger feature analysis and engineering is performed on the data set, then the ML model will have greater performance with respect to consumer disputes.}
+
+\section{Data Insights}
+The following features were compared to consumer disputes: product, state, submission method, and issue.
+\subsection{If a product is more commonly used within a financial institution, then it will have more complaints.}
+\subsection{If a consumer is located in a state on the western coast of the United States, then they are more likely to dispute their resolution.}
+\subsection{If a consumer uses an online method of submitting their complaint, then they are more likely to dispute their resolution.}
+\subsection{If a consumer submits an issue for servicing payments, then they are more likely to dispute their resolution.}
+
+\section{Additional Dispute Prediction Project Implementations}
+\subsection{If sentiment analysis on issues is used as a feature in the ML Model, then the classifier will have stronger performance.}
+\subsection{If dimensionality reduction with principal component analysis (PCA) is used, then strong, new visualizations and insights can be drawn from the data.}
+
+
+\chapter{Additional Ideas}
+
+\section{Data Exploration}
+\subsection{Interactive map that highlights different zip codes and their attributes.}
+\subsection{Advanced sentiment analysis on product, sub-product, issue, and sub-issue.}
+
+\section{ML Prediction}
+\subsection{Predicting how the company will resolve the complaint}
+
+\end{document}
