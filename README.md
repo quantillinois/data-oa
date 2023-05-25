@@ -1,6 +1,3 @@
-# data-oa
-Online Assessments for the Data Team
-
 # Data Science: Exploratory Data Analysis on a Consumer Finance Dataset
 
 Exploratory data analysis plays a huge part in quantitative finance. Often, in a variety of scenarios, consumer interests, expectations and beliefs play a huge role in deciding major moves for organisations.
@@ -31,31 +28,4 @@ The dataset is on Google Drive. Our advice for you is to download the dataset, w
 Link to dataset: https://drive.google.com/file/d/1Vnny6HVGBgF_mdDtIo2ddOTtOiGF5jxK/view?usp=sharing
 
 Log in with your GApps@Illinois account to access this dataset.
-
-## **Deliverables**
-1. A Jupyter Notebook with all the code and your thought process. (Remember the thought process is what we're looking for)
-2. A generated, dynamic PDF File with the insights that you have gathered.
-3. A list of future hypotheses that you may not have yet implemented / couldn't figure out how to, but feel that could be interesting. Ideally, this would be structured in LaTex.
-
-## **Grading**
-We will be looking at your project and grading it under these five criteria:
-1. Code
-   - If it works
-   - Modular
-   - Follows best practices (ie. OOP)
-2. Documentation
-   - Concise and exact.
-   - Follows popular conventions.
-   - Visuality. (Lots of graphs and statistics)
-3. Styling
-   - Human readable
-   - Can quickly glance to receive all relevant information
-   - Follows Google Style Guide (preferred if it exists) or most popular convention (ie. PEP8)
-4. Robustness
-   - Customizable
-   - No technical debt (future proof)
-   - Handles bad inputs and errors
-5. Git
-   - [Good commit messages](https://cbea.ms/git-commit/#seven-rules)
-   - Commits are properly sized
 
